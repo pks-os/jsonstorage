@@ -1,6 +1,5 @@
 # jsonstorage
-Store and retrieve your JSON data for free using simple GET &amp; POST requests https://jsonstorage.net/
-Based on ASP.net and Azure Cosmos DB
+Store and retrieve your JSON data for free using simple GET &amp; POST requests https://jsonstorage.net/. Based on ASP.net and Azure Cosmos DB
 
 Related blog posts:
 
