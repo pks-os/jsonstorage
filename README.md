@@ -1,6 +1,9 @@
 # jsonstorage
 Store and retrieve your JSON data for free using simple GET &amp; POST requests https://jsonstorage.net/. Based on ASP.net and Azure Cosmos DB
 
+Sample app that uses JsonStorage:
+* https://github.com/adoprog/todomvc-angular2-jsonstorage
+
 ![JsonStorage](https://2.bp.blogspot.com/-iMkQcOCzFcs/WJI4rcHrLyI/AAAAAAAAEM4/Hcggu0JjauEY7NUpqioZIofZFyyuX1ffwCLcB/s1600/Plan.png)
 
 Related blog posts:
