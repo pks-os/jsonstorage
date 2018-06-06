@@ -1,0 +1,11 @@
+.action {
+  background-color: #0a7299;
+}
+
+.action:hover {
+  background-color: #0a7299 !important;
+}
+
+.action:active {
+  background-color: #0a7299 !important;
+}

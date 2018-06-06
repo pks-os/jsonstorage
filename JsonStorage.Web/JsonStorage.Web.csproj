@@ -307,6 +307,9 @@
     <Content Include="less\mixins.less" />
     <Content Include="less\new-age.less" />
     <Content Include="less\variables.less" />
+    <Content Include="asset-manifest.json" />
+    <Content Include="manifest.json" />
+    <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <None Include="Properties\PublishProfiles\jsonstorage - FTP.pubxml" />
     <None Include="Properties\PublishProfiles\jsonstorage - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
@@ -320,6 +323,11 @@
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
+    <Content Include="service-worker.js" />
+    <Content Include="static\css\main.ec862a61.css" />
+    <Content Include="static\js\main.2fca57ec.js" />
+    <Content Include="static\js\main.4397c2de.js" />
+    <Content Include="static\js\main.99349f28.js" />
     <Content Include="vendor\bootstrap\css\bootstrap.css" />
     <Content Include="vendor\bootstrap\css\bootstrap.min.css" />
     <Content Include="vendor\bootstrap\fonts\glyphicons-halflings-regular.svg" />
@@ -481,6 +489,10 @@
     <Content Include="vendor\simple-line-icons\fonts\Simple-Line-Icons.woff2" />
     <Content Include="vendor\simple-line-icons\less\simple-line-icons.less" />
     <Content Include="vendor\simple-line-icons\scss\simple-line-icons.scss" />
+    <Content Include="static\css\main.ec862a61.css.map" />
+    <Content Include="static\js\main.2fca57ec.js.map" />
+    <Content Include="static\js\main.99349f28.js.map" />
+    <Content Include="static\js\main.4397c2de.js.map" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
