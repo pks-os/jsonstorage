@@ -10,7 +10,8 @@ class Header extends Component {
                             <div className="header-content">
                                 <div className="header-content-inner">
                                     <h1>JsonStorage.net is a simple web storage for your website, mobile app, or anything else!</h1>
-                                    <a href="#examples" className="btn btn-outline btn-xl page-scroll">Start Now for Free!</a>
+                                    <a href="#examples" className="btn btn-outline btn-xl page-scroll">Start Now for Free!</a>&nbsp;
+                                    <a href="https://app.jsonstorage.net/" target="_blank" className="btn btn-outline btn-warning btn-xl">[New] Try the app!</a>
                                 </div>
                             </div>
                         </div>
