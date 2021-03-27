@@ -1,1 +1,1 @@
-/api/items/*  https://jsonstorage.net/api/items/:splat  200
+/api/items/*  https://jsonstorage.azurewebsites.net/api/items/:splat  200
