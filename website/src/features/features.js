@@ -18,7 +18,7 @@ class Features extends Component {
                                 Example (<a href="https://jsfiddle.net/adoprog/s4tue5g6/" target="_blank" rel="noopener noreferrer">JSFiddle</a>)
                             </p>
                             <p>
-                                <EmbeddedGist gist="anonymous/d0b1af4074c5ddda4a0fbc344ed33f89" file="get.js"></EmbeddedGist>
+                                <EmbeddedGist gist="adoprog/bcc09bd28c455e31901c15144f86c2e8" file="get.js"></EmbeddedGist>
                             </p>
                         </div>
                         <div className="col-md-4">
@@ -26,13 +26,13 @@ class Features extends Component {
                             <p><span className="label label-info">POST</span> /api/items</p>
                             <p>
                                 Response:
-                                201 Created - {"{"}"uri":"https://jsonstorage.net/api/items/(id)"{"}"}
+                                201 Created - {"{"}"uri":"https://api.jsonstorage.net/v1/json/(id)"{"}"}
                             </p>
                             <p>
                                 Example:
                             </p>
                             <p>
-                                <EmbeddedGist gist="anonymous/450bd7eac263c9d3200eca4901b83083" file="set.js"></EmbeddedGist>
+                                <EmbeddedGist gist="adoprog/a9e7cc59c063cfc526160ecfa4fbdd0e" file="set.js"></EmbeddedGist>
                             </p>
                         </div>
                         <div className="col-md-4">
@@ -46,7 +46,7 @@ class Features extends Component {
                                 Example:
                             </p>
                             <p>
-                                <EmbeddedGist gist="anonymous/2d3b8b5a3d6894ce13a2d03a9c29b453" file="update.js"></EmbeddedGist>
+                                <EmbeddedGist gist="adoprog/49f079e4141a598e59ecb6191ada6412" file="update.js"></EmbeddedGist>
                             </p>
                         </div>
                     </div>
