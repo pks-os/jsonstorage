@@ -326,6 +326,7 @@
     <Content Include="static\css\main.ec862a61.css" />
     <Content Include="static\js\main.2fca57ec.js" />
     <Content Include="static\js\main.4397c2de.js" />
+    <Content Include="static\js\main.6703d387.js" />
     <Content Include="static\js\main.99349f28.js" />
     <Content Include="static\js\main.cfdd9371.js" />
     <Content Include="vendor\bootstrap\css\bootstrap.css" />
@@ -420,6 +421,7 @@
     <Content Include="static\js\main.99349f28.js.map" />
     <Content Include="static\js\main.4397c2de.js.map" />
     <Content Include="static\js\main.cfdd9371.js.map" />
+    <Content Include="static\js\main.6703d387.js.map" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
