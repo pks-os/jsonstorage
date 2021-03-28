@@ -9,7 +9,7 @@ class Features extends Component {
                     <div className="row">
                         <div className="col-md-4">
                             <h2>Request JSON</h2>
-                            <p><span className="label label-success">GET</span> /api/items/(id)</p>
+                            <p><span className="label label-success">GET</span> /v1/json/(id)</p>
                             <p>
                                 Response:
                                 200 OK - Your JSON data returned
@@ -23,7 +23,7 @@ class Features extends Component {
                         </div>
                         <div className="col-md-4">
                             <h2>Create JSON</h2>
-                            <p><span className="label label-info">POST</span> /api/items</p>
+                            <p><span className="label label-info">POST</span> /v1/json</p>
                             <p>
                                 Response:
                                 201 Created - {"{"}"uri":"https://api.jsonstorage.net/v1/json/(id)"{"}"}
@@ -37,7 +37,7 @@ class Features extends Component {
                         </div>
                         <div className="col-md-4">
                             <h2>Update JSON</h2>
-                            <p><span className="label label-warning">PUT</span> /api/items/(id)</p>
+                            <p><span className="label label-warning">PUT</span> /v1/json/(id)</p>
                             <p>
                                 Server response:
                                 200 OK - Your JSON data returned

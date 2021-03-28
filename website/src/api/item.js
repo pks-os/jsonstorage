@@ -2,7 +2,7 @@ import request from '../shared/lib/request'
 
 function create(dataToSend) {
   return request({
-    url:    '/api/items',
+    url:    'https://api.jsonstorage.net/v1/json',
     method: 'POST',
     data: dataToSend
   });
