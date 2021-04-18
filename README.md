@@ -19,7 +19,7 @@ Entities created from the App always require API key (for editing).
 
 ## App
 
-The app is a UI for managing JSON snippets. It provides a few extra features in addition to the public API
+The app [https://app.jsonstorage.net](https://app.jsonstorage.net) is a UI for managing JSON snippets. It provides a few extra features in addition to the public API
 
 ![App UI](/docs/images/app.png)
 
