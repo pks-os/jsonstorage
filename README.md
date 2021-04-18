@@ -9,10 +9,10 @@ Public API does not require authentication (as long as the item was intially cre
 *Get JSON*:
 GET https://api.jsonstorage.net/v1/json/(id)
 
-*Create JSON*:
+*Create JSON* (unauthenticated):
 POST https://api.jsonstorage.net/v1/json
 
-*Update JSON*:
+*Update JSON* (unauthenticated):
 PUT https://api.jsonstorage.net/json/(id)
 
 Entities created from the App always require API key (for editing).
@@ -31,8 +31,11 @@ Item is a piece of content you want to serve. Each item created from the app is 
 
 Api Key allows editing the content from the API. There are two types of API keys: normal and read-only.
 
+*Create JSON* (authenticated)
+POST [https://api.jsonstorage.net/v1/json/%item_id%?apiKey=%api_key%](https://api.jsonstorage.net/v1/json/%item_id%?apiKey=%api_key%)
+
 *Update JSON* (authenticated)
-[https://api.jsonstorage.net/v1/json/%item_id%?apiKey=%api_key%](https://api.jsonstorage.net/v1/json/%item_id%?apiKey=%api_key%)
+PUT [https://api.jsonstorage.net/v1/json/%item_id%?apiKey=%api_key%](https://api.jsonstorage.net/v1/json/%item_id%?apiKey=%api_key%)
 
 ### Intents
 
