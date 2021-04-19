@@ -17,6 +17,12 @@ PUT https://api.jsonstorage.net/json/(id)
 
 Entities created from the App always require API key (for editing).
 
+## Sample
+
+It uses jsonstorage as a data provider for storing to-dos
+
+* [todomvc-angular2-jsonstorage](https://github.com/adoprog/todomvc-angular2-jsonstorage)
+
 ## App
 
 The app [https://app.jsonstorage.net](https://app.jsonstorage.net) is a UI for managing JSON snippets. It provides a few extra features in addition to the public API
@@ -49,10 +55,6 @@ Intents allow to personalize served content based on one or many of the followin
 You create intents first, and then assign intents and desired outputs to one of the items. The rules are executed top to bottom, the last rule (if applicable) will override the previous one.
 
 ![App UI](/docs/images/virtual.png)
-
-## Sample app that uses JsonStorage
-
-* [todomvc-angular2-jsonstorage](https://github.com/adoprog/todomvc-angular2-jsonstorage)
 
 ![JsonStorage](https://2.bp.blogspot.com/-iMkQcOCzFcs/WJI4rcHrLyI/AAAAAAAAEM4/Hcggu0JjauEY7NUpqioZIofZFyyuX1ffwCLcB/s1600/Plan.png)
 
