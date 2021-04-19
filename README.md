@@ -21,7 +21,8 @@ Entities created from the App always require API key (for editing).
 
 It uses jsonstorage as a data provider for storing to-dos
 
-* [todomvc-angular2-jsonstorage](https://github.com/adoprog/todomvc-angular2-jsonstorage)
+* Source Code [todomvc-jsonstorage](https://github.com/adoprog/todomvc-angular2-jsonstorage)
+* Hosted Demo [https://todomvc-jsonstorage.azurewebsites.net/](https://todomvc-jsonstorage.azurewebsites.net/)
 
 ## App
 
