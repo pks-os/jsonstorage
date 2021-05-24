@@ -9,7 +9,7 @@ class Header extends Component {
                         <div className="col-sm-7">
                             <div className="header-content">
                                 <div className="header-content-inner">
-                                    <h1>JsonStorage.net is a simple web storage for your website, mobile app, or anything else!</h1>
+                                    <h1>Multi-channel content storage and personalization for your headless website, mobile app, or anything else!</h1>
                                     <a href="#examples" className="btn btn-outline btn-xl page-scroll">Start Now for Free!</a>&nbsp;
                                     <a href="https://app.jsonstorage.net/" target="_blank" rel="noopener noreferrer" className="btn btn-outline btn-warning btn-xl">[New] Try the app!</a>
                                 </div>
