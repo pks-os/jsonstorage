@@ -40,8 +40,8 @@ class Examples extends Component {
                                     <div className="col-md-6">
                                         <div className="feature-item">
                                             <i className="icon-present text-primary"></i>
-                                            <h3>Free to Use</h3>
-                                            <p className="text-muted">Free to use for any purpose, as long as you don't issue to many requests</p>
+                                            <h3>Free Tier</h3>
+                                            <p className="text-muted">Free Tier is good for any purpose, as long as you don't issue to many requests</p>
                                         </div>
                                     </div>
                                     <div className="col-md-6">
