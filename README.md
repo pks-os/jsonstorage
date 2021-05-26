@@ -59,6 +59,11 @@ You create intents first, and then assign intents and desired outputs to one of 
 
 ![JsonStorage](https://2.bp.blogspot.com/-iMkQcOCzFcs/WJI4rcHrLyI/AAAAAAAAEM4/Hcggu0JjauEY7NUpqioZIofZFyyuX1ffwCLcB/s1600/Plan.png)
 
+### Personalization
+
+You can serve personalized content for website built with React, NextJS, and other frameworks.
+TODO: Add NPM package links.
+
 ## Related blog posts
 
 * [Build your startup on Azure. Part 1: JsonStorage.net](http://devopssnippets.blogspot.com/2017/03/build-your-startup-on-azure-part-1.html)
