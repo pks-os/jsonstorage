@@ -25,6 +25,10 @@ export default function SEO({
       content: `website`,
     },
     {
+      property: `og:image`,
+      content: `https://www.jsonstorage.net/og.png`,
+    },
+    {
       name: `twitter:card`,
       content: `summary`,
     },
@@ -39,6 +43,10 @@ export default function SEO({
     {
       name: `twitter:description`,
       content: description,
+    },
+    {
+      property: `twitter:image`,
+      content: `https://www.jsonstorage.net/og.png`,
     },
   ].concat(meta);
   return (
