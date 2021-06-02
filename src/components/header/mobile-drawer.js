@@ -1,10 +1,10 @@
 import React, { useContext } from 'react';
-import { Box } from 'theme-ui';
+import { Box, Link } from 'theme-ui';
 import { Scrollbars } from 'react-custom-scrollbars';
 import Drawer from 'components/drawer';
 import { DrawerContext } from '../../contexts/drawer/drawer.context';
 import { IoMdClose, IoMdMenu } from 'react-icons/io';
-import { Link } from 'react-scroll';
+
 import {
   FaFacebookF,
   FaTwitter,
@@ -15,21 +15,13 @@ import menuItems from './header.data';
 
 const social = [
   {
-    path: '/',
-    icon: <FaFacebookF />,
-  },
-  {
-    path: '/',
+    path: 'https://twitter.com/jsonstorage',
     icon: <FaTwitter />,
   },
   {
-    path: '/',
+    path: 'https://github.com/adoprog/jsonstorage',
     icon: <FaGithubAlt />,
-  },
-  {
-    path: '/',
-    icon: <FaDribbble />,
-  },
+  }
 ];
 
 const MobileDrawer = () => {
@@ -78,7 +70,7 @@ const MobileDrawer = () => {
             <Box sx={styles.social}>
               {social.map(({ path, icon }, i) => (
                 <Box as="span" key={i} sx={styles.social.icon}>
-                  <Link to={path}>{icon}</Link>
+                  <Link href={path}>{icon}</Link>
                 </Box>
               ))}
             </Box>
