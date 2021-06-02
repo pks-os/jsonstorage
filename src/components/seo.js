@@ -26,7 +26,7 @@ export default function SEO({
     },
     {
       property: `og:image`,
-      content: `https://www.jsonstorage.net/og.png`,
+      content: `/og.png`,
     },
     {
       name: `twitter:card`,
@@ -46,7 +46,7 @@ export default function SEO({
     },
     {
       name: `twitter:image`,
-      content: `https://www.jsonstorage.net/og.png`,
+      content: `/og.png`,
     },
   ].concat(meta);
   return (
