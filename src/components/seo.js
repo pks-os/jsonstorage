@@ -3,7 +3,7 @@ import Head from 'next/head';
 
 export default function SEO({
   description = 'Multichannel content personalization. Store, manage, personalize JSON content for your headless website, mobile app, or anything else',
-  author = 'Alexander Doroshenko',
+  author = '@adoprog',
   meta,
   title = 'JsonStorage - multichannel JSON storage and personalization',
 }) {
@@ -11,26 +11,14 @@ export default function SEO({
     {
       name: `description`,
       content: description,
-    },
-    {
-      property: `og:title`,
-      content: title,
-    },
-    {
-      property: `og:description`,
-      content: description,
-    },
-    {
-      property: `og:type`,
-      content: `website`,
-    },
-    {
-      property: `og:image`,
-      content: `/og.png`,
-    },
+    },   
     {
       name: `twitter:card`,
-      content: `summary`,
+      content: `summary_large_image`,
+    },
+    {
+      name: `twitter:site`,
+      content: `@jsonstorage`,
     },
     {
       name: `twitter:creator`,
@@ -46,9 +34,29 @@ export default function SEO({
     },
     {
       name: `twitter:image`,
-      content: `/og.png`,
+      content: `https://www.jsonstorage.net/og.png`,
     },
   ].concat(meta);
+
+  const ogMetaData = [
+    {
+      property: `og:title`,
+      content: title,
+    },
+    {
+      property: `og:description`,
+      content: description,
+    },
+    {
+      property: `og:type`,
+      content: `website`,
+    },
+    {
+      property: `og:image`,
+      content: `https://www.jsonstorage.net/og.png`,
+    }
+  ];
+
   return (
     <Head>
       <title>{title}</title>
@@ -68,7 +76,11 @@ export default function SEO({
           }}
         />
       {metaData.map(({ name, content }, i) => (
-        <meta key={i} name={name} content={content} />
+        <meta key={i + name} name={name} content={content} />
+      ))}
+
+      {ogMetaData.map(({ property, content }, i) => (
+        <meta key={i + property} property={property} content={content} />
       ))}
     </Head>
   );
