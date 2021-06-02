@@ -39,41 +39,6 @@ const packages = [
       },
     ],
   },
-  {
-    header: 'Recommended',
-    name: 'Premium',
-    description: 'For startup enterprise',
-    priceWithUnit: '$xx.xx/',
-    buttonText: 'Sign In',
-    points: [
-      {
-        icon: <IoIosCheckmarkCircle />,
-        text: 'Create and manage items, intents, personalization rules.',
-        isAvailable: true,
-      },
-      {
-        icon: <IoIosCheckmarkCircle />,
-        text:
-          'Serve personalized content for static sites, headless sites, mobile apps.',
-        isAvailable: true,
-      },
-      {
-        icon: <IoIosCheckmarkCircle />,
-        text: 'Prebuilt connectors for popular JS frameworks',
-        isAvailable: true,
-      },
-      {
-        icon: <IoIosCheckmarkCircle />,
-        text: 'Collaborate with colleagues in the same workspace',
-        isAvailable: true,
-      },
-      {
-        icon: <IoIosCheckmarkCircle />,
-        text: 'Dedicated Support',
-        isAvailable: true,
-      },
-    ],
-  },
 ];
 export default function Package() {
   return (
