@@ -9,7 +9,7 @@ export default function Footer() {
         <div className="addthis_inline_share_toolbox"></div>
       </Text>
       <Text sx={styles.footer.copyright}>
-        © 2017-2021 Alexander Doroshenko<Link path="https://twitter.com/adoprog" target="_blank">@adoprog</Link>. All Rights Reserved.
+        © 2017-2021 Alexander Doroshenko<Link path="https://twitter.com/adoprog" rel="noopener" target="_blank">@adoprog</Link>. All Rights Reserved.
       </Text>
 
       <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4eafde3b44f5fe2d"></script>
