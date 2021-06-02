@@ -45,7 +45,7 @@ export default function SEO({
       content: description,
     },
     {
-      property: `twitter:image`,
+      name: `twitter:image`,
       content: `https://www.jsonstorage.net/og.png`,
     },
   ].concat(meta);
